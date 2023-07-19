@@ -1,0 +1,542 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto",  sans-serif;
+}
+.header {
+  background-color: #068fff;
+  height: 100vh;
+  width: 100%;
+  margin-top: 52px;
+}
+#carouselExampleControls {
+  padding: 60px;
+}
+
+.slider {
+  background-color: #eeeeee;
+}
+.Caradaftar {
+  margin-top: 100px;
+}
+.Caradaftar h1 {
+  text-align: center;
+  font-size: 35px;
+}
+.foto {
+  position: absolute;
+  right: 120px;
+}
+.foto img {
+  width: 500px;
+  height: auto;
+}
+
+.pede {
+  color: white;
+  margin-left: 78px;
+  margin-top: 100px;
+}
+.home {
+  margin-top: 100px;
+}
+.pede h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+.pede p {
+  font-size: 25px;
+  font-weight: bold;
+}
+.benefit {
+  background-color: #eeeeee;
+  height: 800px;
+}
+.benefit h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 80px;
+}
+.after {
+  margin-top: 100px;
+}
+.after p {
+  font-size: 25px;
+  text-align: center;
+}
+.containerrr {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  gap: 10px;
+  white-space: nowrap;
+  -ms-overflow-style: none; /* Untuk Internet Explorer dan Microsoft Edge */
+  scrollbar-width: none; /* Untuk Firefox */
+}
+
+.containerrr .card {
+  margin-top: 20px;
+  display: inline-block;
+  background-color: white;
+  min-width: 384px;
+  height: 476px;
+  border-radius: 4px;
+}
+
+.containerrr::-webkit-scrollbar {
+  display: none;
+}
+.testimoni {
+  margin-top: 100px;
+}
+.testimoni h1 {
+  font-size: 35px;
+  text-align: center;
+}
+#ulasan {
+  margin-top: 50px;
+}
+.gambar {
+  width: 100%;
+  height: 240px;
+}
+.gambar img {
+  width: 100%;
+  height: 240px;
+}
+.aftersales {
+  text-align: center;
+}
+.aftersales img {
+  width: 800px;
+  height: auto;
+  margin-top: 80px;
+}
+.cardbody {
+  margin-top: 29px;
+  margin-left: 20px;
+}
+.cardbody h5 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.cardbody p {
+  font-size: 18px;
+}
+
+.jumbotron {
+  margin-top: 100px;
+}
+.kenalan {
+  margin-top: 140px;
+}
+
+.rest {
+  text-align: center;
+  margin: 20px;
+}
+
+.carousel {
+  height: auto;
+}
+.navbar {
+  /* height: 100px; */
+  background-color: #068fff;
+}
+.collapse {
+  justify-content: center;
+}
+.nav-item {
+  font-size: 20px;
+}
+
+.logo {
+  height: auto;
+  width: 300px;
+  margin-left: 60px;
+}
+.aset1 {
+  margin-top: 50px;
+  height: auto;
+  width: 400px;
+  margin-left: 60px;
+}
+
+.isi {
+  padding-top: 100px;
+}
+.profil1 {
+  margin-top: 50px;
+  height: auto;
+  width: 400px;
+  margin-left: 80px;
+}
+.tmbl {
+  text-align: center;
+}
+.content {
+  padding-top: 200px;
+}
+.imgtest {
+  width: 10px;
+}
+.isi h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.text {
+  font-size: 30px;
+  margin-top: 100px;
+}
+.daftar {
+  margin-top: 50px;
+  font-size: 25px;
+}
+.apakontenbebe {
+  background-color: #d9d9d9;
+}
+.apakontenbebe h1 {
+  text-align: center;
+  font-size: 35px;
+}
+.apakontenbebe p {
+  text-align: center;
+  font-size: 30px;
+}
+
+.kontenbebe {
+  margin-top: 100px;
+}
+.bebe {
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.card {
+  width: 400px;
+}
+
+.after {
+  text-align: center;
+}
+.after1 {
+  width: 400px;
+  height: auto;
+}
+.pamflet {
+  margin: 500px;
+}
+
+.hero {
+  background-color: #eeeeee;
+}
+@media screen and (max-width: 1143px) {
+  .header {
+    background-color: #068fff;
+    height: 60vh;
+    width: 100%;
+  }
+  .collapse {
+    margin-left: 0px;
+  }
+
+  .Caradaftar {
+    margin-top: 80px;
+  }
+  .Caradaftar h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .isi h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .apakontenbebe h1 {
+    font-size: 20px;
+  }
+  .nav-item {
+    font-size: 15px;
+    font-weight: 200;
+  }
+  .aftersales img {
+    width: 600px;
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .kenalan {
+    margin-top: 0px;
+  }
+  #carouselExampleControls {
+    padding: 50px;
+  }
+  .foto {
+    position: static;
+    margin-left: 200px;
+    top: 50px;
+  }
+  .foto img {
+    width: 350px;
+  }
+  .apakontenbebe h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .apakontenbebe p {
+    text-align: center;
+    font-size: 20px;
+  }
+  .pede {
+    margin-left: 40px;
+    margin-top: 100px;
+  }
+  .pede h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .pede p {
+    font-size: 25px;
+  }
+  .after1 {
+    width: 200px;
+    height: auto;
+  }
+  .after p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .benefit {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .benefit h1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .Caradaftar {
+    padding-top: 50px;
+  }
+  .testimoni {
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  .testimoni h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 30px;
+  }
+  .isi {
+    padding-top: 50px;
+  }
+  .header p {
+    font-size: 20px;
+  }
+  .profil {
+    padding-top: 50px;
+  }
+  /* .navbar {
+    height: 60px;
+  } */
+  .logo {
+    width: 150px;
+    height: auto;
+    margin-left: 0px;
+  }
+  .text {
+    margin-top: 50px;
+    font-size: 25px;
+  }
+
+  .hero h1 {
+    font-size: 20px;
+  }
+  .hero p {
+    font-size: 12px;
+  }
+  .aset1 {
+    height: auto;
+    width: 100px;
+  }
+  .after p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .profil1 {
+    height: auto;
+    width: 300px;
+
+    margin-left: -25px;
+  }
+
+  .content {
+    padding-top: 50px;
+  }
+  .daftar {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .bebe {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .kenalan {
+    margin-top: 120px;
+  }
+  #ulasan {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    background-color: #068fff;
+    height: 80vh;
+    width: 100%;
+  }
+  .collapse {
+    margin-left: 0px;
+  }
+  .kenalan {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .testimoni {
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .testimoni h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .apakontenbebe p {
+    text-align: center;
+    font-size: 15px;
+  }
+  .after1 {
+    width: 150px;
+    height: auto;
+  }
+  .after p {
+    font-size: 15px;
+  }
+  .isi h1 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .benefit {
+    background-color: #eeeeee;
+    height: 500px;
+  }
+  .benefit h1 {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .daftar {
+    font-size: 10px;
+  }
+  .Caradaftar {
+    margin-top: 50px;
+  }
+  .Caradaftar h1 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .testimoni h1 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .row {
+    padding: 50px;
+  }
+
+  .aftersales img {
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+  }
+  .apakontenbebe h1 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .profil1 {
+    margin-top: 50px;
+    height: auto;
+    width: 250px;
+    margin-left: -30px;
+  }
+  #carouselExampleControls {
+    padding: 10px;
+  }
+  .foto {
+    position: static;
+    margin-left: 40px;
+  }
+  .foto img {
+    width: 250px;
+  }
+  .pede {
+    margin-left: 40px;
+    margin-top: 100px;
+  }
+  #ulasan {
+    margin-top: 5px;
+  }
+  .pede h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .pede p {
+    font-size: 15px;
+  }
+  .containerrr {
+    margin-top: 50px;
+  }
+  .containerrr .card {
+    margin-top: 0px;
+    display: inline-block;
+    min-width: 254px;
+    height: 376px;
+    border-radius: 4px;
+  }
+  .gambar {
+    width: 100%;
+    height: 200px;
+  }
+  .gambar img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .cardbody {
+    margin-top: 29px;
+    margin-left: 20px;
+  }
+  .text {
+    font-size: 20px;
+  }
+  .cardbody h5 {
+    font-size: 18px;
+  }
+  .cardbody p {
+    font-size: 12px;
+  }
+}
