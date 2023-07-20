@@ -533,6 +533,10 @@
   .text {
     font-size: 20px;
   }
+    .lead {
+    text-align: start;
+  }
+
   .cardbody h5 {
     font-size: 18px;
   }
