@@ -200,6 +200,10 @@
   margin-top: 50px;
   font-size: 25px;
 }
+.daftar p {
+  font-size: 30px;
+  margin: 80px;
+}
 .apakontenbebe {
   background-color: #d9d9d9;
 }
@@ -381,6 +385,10 @@
 
     margin-left: -25px;
   }
+    .daftar p {
+    font-size: 20px;
+    margin: 50px;
+  }
 
   .content {
     padding-top: 50px;
@@ -466,6 +474,10 @@
   }
   .row {
     padding: 50px;
+  }
+   .daftar p {
+    font-size: 15px;
+    margin: 5px;
   }
 
   .aftersales img {
